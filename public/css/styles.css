@@ -1,0 +1,71 @@
+/* Estilos generales para todo el sitio */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Estilos para la sección de productos */
+.products-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products-container p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.products-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.products-container li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.products-container li:last-child {
+  border-bottom: none;
+}
+
+/* Estilos para la sección de administración */
+.admin-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h1 {
+  color: #e74c3c;
+}
+
+/* Estilos opcionales para la navegación */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
